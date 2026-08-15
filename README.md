@@ -8,8 +8,8 @@
 
 | 文件 | 适用情况 | 大小 |
 | --- | --- | ---: |
-| [v1.2.3 完整版](packages/Crown_Gambit_简体中文汉化_v1.2.3_完整版.zip) | 第一次安装汉化；当前为 Steam 原版 | 约 46.0 MB |
-| [v1.2.3 小型更新包](packages/Crown_Gambit_简体中文汉化_v1.2.3_文本更新包.zip) | 已安装 v1.0、v1.1、v1.2、v1.2.1 或 v1.2.2 汉化 | 约 6.6 MB |
+| [v1.2.3 完整版](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.3/Crown_Gambit_zh-Hans_v1.2.3_Full.zip) | 第一次安装汉化；当前为 Steam 原版 | 约 46.0 MB |
+| [v1.2.3 小型更新包](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.3/Crown_Gambit_zh-Hans_v1.2.3_Text_Update.zip) | 已安装 v1.0、v1.1、v1.2、v1.2.1 或 v1.2.2 汉化 | 约 6.6 MB |
 
 不确定该使用哪一个时，请选择完整版。文本更新包不能直接安装在纯原版游戏上。
 
