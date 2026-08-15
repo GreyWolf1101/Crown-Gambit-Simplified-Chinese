@@ -62,7 +62,7 @@
 
 ## 校验值
 
-压缩包的 SHA-256 见 [SHA256SUMS.txt](SHA256SUMS.txt)。每个压缩包内部也附带自己的文件校验清单。
+压缩包的 SHA-256 见 [v1.2.3 校验清单](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.3/SHA256SUMS-v1.2.3.txt)。每个压缩包内部也附带自己的文件校验清单。
 
 ## 说明
 
