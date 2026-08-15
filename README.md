@@ -8,8 +8,8 @@
 
 | 文件 | 适用情况 | 大小 |
 | --- | --- | ---: |
-| [v1.2.3 完整版](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.3/Crown_Gambit_zh-Hans_v1.2.3_Full.zip) | 第一次安装汉化；当前为 Steam 原版 | 约 46.0 MB |
-| [v1.2.3 小型更新包](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.3/Crown_Gambit_zh-Hans_v1.2.3_Text_Update.zip) | 已安装 v1.0、v1.1、v1.2、v1.2.1 或 v1.2.2 汉化 | 约 6.6 MB |
+| [v1.2.4 完整版](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.4/Crown_Gambit_zh-Hans_v1.2.4_Full.zip) | 第一次安装汉化；当前为 Steam 原版 | 约 46.0 MB |
+| [v1.2.4 小型更新包](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.4/Crown_Gambit_zh-Hans_v1.2.4_Text_Update.zip) | 已安装 v1.0 至 v1.2.3 任一版汉化 | 约 6.7 MB |
 
 不确定该使用哪一个时，请选择完整版。文本更新包不能直接安装在纯原版游戏上。
 
@@ -21,11 +21,17 @@
 4. 双击完整版中的“安装汉化.bat”，或更新包中的“安装文本更新.bat”。
 5. 等待校验和安装完成，然后从 Steam 启动游戏。
 
-安装器会验证游戏文件版本并自动创建备份。完整版可通过“还原原版.bat”恢复；`v1.2.3` 会在还原时备份用户配置，并将原版不支持的 `language = "zh"` 自动切回 `en`，不会修改存档。文本更新包的还原脚本只会恢复到更新前的旧版汉化。
+安装器会验证游戏文件版本并自动创建备份。完整版可通过“还原原版.bat”恢复；`v1.2.4` 会在还原时备份用户配置，并将原版不支持的 `language = "zh"` 自动切回 `en`，不会修改存档。文本更新包的还原脚本只会恢复到更新前的旧版汉化。
 
 完整版安装期间需要约 8 GB 可用空间；从较早版本执行桥接更新时最多需要约 16 GB。Steam 更新或“验证游戏文件完整性”可能覆盖汉化，届时重新安装完整版即可。
 
-若准备直接通过 Steam 卸载、重装或验证文件，请先在游戏设置中切换为 English，或先使用 `v1.2.3` 完整版的“还原原版.bat”。Steam 不会在重装时删除用户配置，直接留下 `zh` 会导致原版主菜单无法操作。
+若准备直接通过 Steam 卸载、重装或验证文件，请先在游戏设置中切换为 English，或先使用 `v1.2.4` 完整版的“还原原版.bat”。Steam 不会在重装时删除用户配置，直接留下 `zh` 会导致原版主菜单无法操作。
+
+## v1.2.4 更新内容
+
+- 修复技能解锁成功后无法切换到下一名角色的问题。
+- 恢复原版技能树的 `PackedScene` 实例和信号结构，仅对升级标题的中文换行属性进行局部修改。
+- 实际完成第一章的三名角色解锁流程，验证罗洛、艾莉莎和海尔依次自动切换并正常返回地图。
 
 ## v1.2.3 更新内容
 
@@ -62,7 +68,7 @@
 
 ## 校验值
 
-压缩包的 SHA-256 见 [v1.2.3 校验清单](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.3/SHA256SUMS-v1.2.3.txt)。每个压缩包内部也附带自己的文件校验清单。
+压缩包的 SHA-256 见 [v1.2.4 校验清单](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.4/SHA256SUMS-v1.2.4.txt)。每个压缩包内部也附带自己的文件校验清单。
 
 ## 说明
 
