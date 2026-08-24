@@ -8,8 +8,8 @@
 
 | 文件 | 适用情况 | 大小 |
 | --- | --- | ---: |
-| [v1.2.6 完整版](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.6/Crown_Gambit_zh-Hans_v1.2.6_Full.zip) | 第一次安装汉化；当前为 Steam 原版 | 约 45.9 MB |
-| [v1.2.6 小型更新包](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.6/Crown_Gambit_zh-Hans_v1.2.6_Text_Update.zip) | 已安装 v1.0 至 v1.2.5 任一版汉化 | 约 6.8 MB |
+| [v1.2.7 完整版](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.7/Crown_Gambit_zh-Hans_v1.2.7_Full.zip) | 第一次安装汉化；当前为 Steam 原版 | 约 45.9 MB |
+| [v1.2.7 小型更新包](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.7/Crown_Gambit_zh-Hans_v1.2.7_Text_Update.zip) | 已安装 v1.0 至 v1.2.6 任一版汉化 | 约 6.9 MB |
 
 不确定该使用哪一个时，请选择完整版。文本更新包不能直接安装在纯原版游戏上。
 
@@ -21,11 +21,20 @@
 4. 双击完整版中的“安装汉化.bat”，或更新包中的“安装文本更新.bat”。
 5. 等待校验和安装完成，然后从 Steam 启动游戏。
 
-安装器会验证游戏文件版本并自动创建备份。完整版可通过“还原原版.bat”恢复；`v1.2.6` 会在还原时备份用户配置，并将原版不支持的 `language = "zh"` 自动切回 `en`，不会修改存档。文本更新包的还原脚本只会恢复到更新前的旧版汉化。
+安装器会验证游戏文件版本并自动创建备份。完整版可通过“还原原版.bat”恢复；`v1.2.7` 会在还原时备份用户配置，并将原版不支持的 `language = "zh"` 自动切回 `en`，不会修改存档。文本更新包的还原脚本只会恢复到更新前的旧版汉化。
 
 完整版安装期间需要约 8 GB 可用空间；从较早版本执行桥接更新时最多需要约 16 GB。Steam 更新或“验证游戏文件完整性”可能覆盖汉化，届时重新安装完整版即可。
 
-若准备直接通过 Steam 卸载、重装或验证文件，请先在游戏设置中切换为 English，或先使用 `v1.2.6` 完整版的“还原原版.bat”。Steam 不会在重装时删除用户配置，直接留下 `zh` 会导致原版主菜单无法操作。
+若准备直接通过 Steam 卸载、重装或验证文件，请先在游戏设置中切换为 English，或先使用 `v1.2.7` 完整版的“还原原版.bat”。Steam 不会在重装时删除用户配置，直接留下 `zh` 会导致原版主菜单无法操作。
+
+## v1.2.7 更新内容
+
+- 以实际执行代码与最终敌人场景参数为准，修正 28 条状态、被动和特殊机制说明。
+- 明确“头铁”负责为胡南提供活力；真正的减伤状态是“戒备”，默认 50% 参数实际约减伤三分之一。
+- 修正图尔“蓄势”的触发方颠倒、恐惧的取整方向与持续范围，以及出血、中毒、灼烧、冰冻和腐蚀的真实叠层结算。
+- 修正寒霜甲壳、护主群鸟、有失风度、求胜之怒、不死、铤而走险等边界条件。
+- 按最终场景参数修正活体护甲、未来视界与耀眼反光；按执行脚本修正先祖之怒。
+- 同步更新按章节折叠的防剧透敌人与 Boss 机制图鉴。
 
 ## v1.2.6 更新内容
 
@@ -81,7 +90,7 @@
 
 ## 校验值
 
-压缩包的 SHA-256 见 [v1.2.6 校验清单](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.6/SHA256SUMS-v1.2.6.txt)。每个压缩包内部也附带自己的文件校验清单。
+压缩包的 SHA-256 见 [v1.2.7 校验清单](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.7/SHA256SUMS-v1.2.7.txt)。每个压缩包内部也附带自己的文件校验清单。
 
 ## 敌人机制图鉴
 
