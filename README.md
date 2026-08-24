@@ -8,8 +8,8 @@
 
 | 文件 | 适用情况 | 大小 |
 | --- | --- | ---: |
-| [v1.2.5 完整版](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.5/Crown_Gambit_zh-Hans_v1.2.5_Full.zip) | 第一次安装汉化；当前为 Steam 原版 | 约 45.9 MB |
-| [v1.2.5 小型更新包](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.5/Crown_Gambit_zh-Hans_v1.2.5_Text_Update.zip) | 已安装 v1.0 至 v1.2.4 任一版汉化 | 约 6.8 MB |
+| [v1.2.6 完整版](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.6/Crown_Gambit_zh-Hans_v1.2.6_Full.zip) | 第一次安装汉化；当前为 Steam 原版 | 约 45.9 MB |
+| [v1.2.6 小型更新包](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.6/Crown_Gambit_zh-Hans_v1.2.6_Text_Update.zip) | 已安装 v1.0 至 v1.2.5 任一版汉化 | 约 6.8 MB |
 
 不确定该使用哪一个时，请选择完整版。文本更新包不能直接安装在纯原版游戏上。
 
@@ -21,11 +21,18 @@
 4. 双击完整版中的“安装汉化.bat”，或更新包中的“安装文本更新.bat”。
 5. 等待校验和安装完成，然后从 Steam 启动游戏。
 
-安装器会验证游戏文件版本并自动创建备份。完整版可通过“还原原版.bat”恢复；`v1.2.5` 会在还原时备份用户配置，并将原版不支持的 `language = "zh"` 自动切回 `en`，不会修改存档。文本更新包的还原脚本只会恢复到更新前的旧版汉化。
+安装器会验证游戏文件版本并自动创建备份。完整版可通过“还原原版.bat”恢复；`v1.2.6` 会在还原时备份用户配置，并将原版不支持的 `language = "zh"` 自动切回 `en`，不会修改存档。文本更新包的还原脚本只会恢复到更新前的旧版汉化。
 
 完整版安装期间需要约 8 GB 可用空间；从较早版本执行桥接更新时最多需要约 16 GB。Steam 更新或“验证游戏文件完整性”可能覆盖汉化，届时重新安装完整版即可。
 
-若准备直接通过 Steam 卸载、重装或验证文件，请先在游戏设置中切换为 English，或先使用 `v1.2.5` 完整版的“还原原版.bat”。Steam 不会在重装时删除用户配置，直接留下 `zh` 会导致原版主菜单无法操作。
+若准备直接通过 Steam 卸载、重装或验证文件，请先在游戏设置中切换为 English，或先使用 `v1.2.6` 完整版的“还原原版.bat”。Steam 不会在重装时删除用户配置，直接留下 `zh` 会导致原版主菜单无法操作。
+
+## v1.2.6 更新内容
+
+- 全面核验我方与敌方的状态、技能、被动、格子效果和特殊机制，修正 116 个误翻、漏翻或机翻条目。
+- 修正“自身/目标”指向、“立即/下回合”触发时机、增减伤害、状态层数与追加伤害等机制描述。
+- 统一“坚不可摧”“冰冻”“头铁”等状态名称，继续精修战斗技能与特殊效果说明。
+- 新增按 17 个章节折叠的敌人与 Boss 机制图鉴，共覆盖 329 个章节出现记录，并附常见状态速查。
 
 ## v1.2.5 更新内容
 
@@ -74,7 +81,11 @@
 
 ## 校验值
 
-压缩包的 SHA-256 见 [v1.2.5 校验清单](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.5/SHA256SUMS-v1.2.5.txt)。每个压缩包内部也附带自己的文件校验清单。
+压缩包的 SHA-256 见 [v1.2.6 校验清单](https://github.com/GreyWolf1101/Crown-Gambit-Simplified-Chinese/releases/download/v1.2.6/SHA256SUMS-v1.2.6.txt)。每个压缩包内部也附带自己的文件校验清单。
+
+## 敌人机制图鉴
+
+[查看按章节折叠的防剧透图鉴](docs/敌人特殊状态与能力图鉴.md)。图鉴不写章节标题、出场地点、剧情阵营与战斗结果；各章默认折叠，只有手动展开时才显示敌人和 Boss 名称。
 
 ## 说明
 
